@@ -2,7 +2,7 @@ language: php
 
 php:
   - 5.6
-  
+
 notifications:
   email:
     recipients:
@@ -10,4 +10,4 @@ notifications:
     on_success: always
     on_failure: always
 
-script: phpunit -c phpunit.xml --coverage-text test/additionTest.php
+script: phpunit test/additionTest.php
